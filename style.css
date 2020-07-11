@@ -1,0 +1,58 @@
+
+body {
+  background-color:azure;
+}
+
+h1 {
+  font-size:30px;
+}
+
+h2 {
+  font-size:25px;
+}
+
+h3 {
+  font-size:20px;
+}
+
+table, h3 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100%;  
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+/*alignments for inside the first table*/
+.left-class {
+  text-align:left;
+}
+
+.right-class {
+  text-align:right;
+}
+
+/*remove the bullets*/
+li {
+ list-style:none;
+  font-weight: bold;
+}
+
+hr {
+  border-style:solid;
+  border-width: 1px;   
+}
+
+/*for cell data in second table*/
+.aboutme-class {
+  margin:10px;
+  padding:10px;
+}
+
+/* colors for the links */
+a:link {color:blue:}
+a:visited {color:purple;}
+a:hover {color:lightblue;}
+a:active {color:darkblue;}
